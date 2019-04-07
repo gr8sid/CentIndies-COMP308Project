@@ -1,7 +1,7 @@
 <head>
   <style>
 
-    a:hover { text-shadow: 0 0 5px #ff0000; }
+    a:hover { text-shadow: 0 0 5px #ff0000  ; }
 /* Split the screen in half */
 .split {
   height: 100%;
@@ -41,17 +41,11 @@
   </style>
   </head>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
 
  <a routerLink="home">
-    <img
-        class="glow"
-        src="/assets/logo-trans.png"
-        alt="no img found"
-        height="87px"
-        width="100px"
-        /></a>
-        <a class="navbar-brand" routerLink="home" style="position:absolute; left:112px"><div class="glow">SIDHARTH CHOUDHARY</div></a>
+    </a>
+       <img src="assets/images/logo.PNG" height="120px; width:120px" width="fa-rotate-90`0px"/><a class="navbar-brand" routerLink="home" style="position:absolute; left:112px"><div class="glow"></div></a>
 
 
   <button
@@ -70,41 +64,22 @@
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
 
-        <a style="font-size:17px" class="nav-link" routerLink="home" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
+        <a style="font-size:30px" class="nav-link" routerLink="home" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
           ><i class="fas fa-lg fa-igloo"></i> Home </a
         >
       </li>
       <li class="nav-item active">
         <li class="nav-item">
-          <a style="font-size:17px" class="nav-link" routerLink="about"><i class="fa fa-lg fa-info"></i> About Me</a>
-        </li>
-     <!--
-       <li class="nav-item">
-        <a class="nav-link" routerLink="products"  routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
-          ><i class="fa fa-lg fa-briefcase"></i> Products</a>
-      </li>
-    -->
-      <li class="nav-item">
-        <a style="font-size:17px" class="nav-link" routerLink="services"  routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
-          ><i class="fa fa-lg fa-birthday-cake"></i> Services</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="contact"  routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
-          ><i class="fa fa-lg fa-phone"></i> Contact Me</a>
-      </li>
-
-        <li class="nav-item active">
-        <li class="nav-item">
-          <a style="font-size:17px" class="nav-link" routerLink="projects"><i class="fa fa-lg fa-star"></i>  Projects</a>
+          <a style="font-size:30px" class="nav-link" routerLink="about"><i class="fa fa-lg fa-info"></i> About </a>
         </li>
 
-        <li style="font-size:17px" *ngIf="isLoggedIn()" class="navbar-text text-success ml-5 mr-5 d-none d-lg-inline"><i class="fas fa-lg fa-user"></i>
+        <li style="font-size:30px" *ngIf="isLoggedIn()" class="navbar-text text-success ml-5 mr-5 d-none d-lg-inline"><i class="fas fa-lg fa-user"></i>
           Welcome, {{ user.displayName }}</li>
 
-        <li style="font-size:17px" *ngIf="isLoggedIn()" class="nav-item"><a (click)="onLogoutClick()" routerLink="logout" class="nav-link">
+        <li style="font-size:30px" *ngIf="isLoggedIn()" class="nav-item"><a (click)="onLogoutClick()" routerLink="logout" class="nav-link">
           <i class="fas fa-lg fa-sign-out-alt"></i> Logout</a></li>
 
-        <li style="font-size:17px" *ngIf="!isLoggedIn()" class="nav-item"><a routerLink="login" class="nav-link">
+        <li style="font-size:30px" *ngIf="!isLoggedIn()" class="nav-item"><a routerLink="login" class="nav-link">
           <i class="fas fa-lg fa-sign-in-alt"></i> Login</a></li>
 
     </ul>

@@ -12,8 +12,13 @@ export class HomeComponent extends BasePageComponent implements OnInit {
   constructor(route: ActivatedRoute) {
     super(route);
   }
+  public imagesUrl;
 
   ngOnInit() {
+      this.imagesUrl = [
+      'kkk.png',
+      'kkk.png',
+      'kkk.png'
+      ];
   }
-
 }
