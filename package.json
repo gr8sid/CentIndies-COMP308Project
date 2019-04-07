@@ -1,5 +1,5 @@
 {
-  "name": "express-portfolio-sidharthchoudhary-meanstack",
+  "name": "thinkntype",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -31,7 +31,7 @@
     "passport-local-mongoose": "^5.0.1",
     "popper.js": "^1.14.6"
   },
-  "description": "MEAN Stack CRUD Demo",
+  "description": "project",
   "main": "server.js",
   "author": "Sidharth Choudhary",
   "license": "ISC",
@@ -53,10 +53,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://https://github.com/JaskiranKaur12/xxx.git"
+    "url": "git+https://github.com/gr8sid/CentIndies-COMP308Project.git"
   },
   "bugs": {
-    "url": "https://github.com/JaskiranKaur12/xxx/issues"
+    "url": "https://github.com/gr8sid/CentIndies-COMP308Project/issues"
   },
-  "homepage": "https://github.com/JaskiranKaur12/xxx#readme"
+  "homepage": "https://github.com/gr8sid/CentIndies-COMP308Project#readme"
 }
